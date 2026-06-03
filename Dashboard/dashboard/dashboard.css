@@ -136,21 +136,22 @@ hr {
     width: 17vw;
     height: 15vh;
     display: flex;
-    align-items: center;    
+    align-items: center;
     justify-content: space-between;
     gap: 15px;
     padding: 15px;
 }
+
 .cards div {
     display: flex;
     flex-direction: column;
 }
 
-.cards div i{
+.cards div i {
     font-size: 25px;
 }
 
-.icone-card{
+.icone-card {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -158,10 +159,11 @@ hr {
     height: 10vh;
     background-color: #2A0767;
     margin-left: 1vw;
-    margin-bottom: 3vh ;
+    margin-bottom: 3vh;
     border-radius: 10px;
 }
-.cards-text{
+
+.cards-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -170,16 +172,62 @@ hr {
     height: 13vh;
     padding-left: 7px;
 }
-.cards-text strong{
+
+.cards-text strong {
     font-size: 16px;
 }
-.cards-text p{
+
+.cards-text p {
     font-size: 12px;
     color: #2A0767;
 
 }
-.cards-text a{
+
+.cards-text a {
     color: #2A0767;
     font-size: 11px;
 
+}
+
+#menu-cursos-disponiveis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px;
+}
+
+#menu-cursos-disponiveis h1 {
+    color: white;
+    font-size: 32px;
+}
+
+#visualizacao {
+    display: flex;
+    align-items: center;
+    
+    flex-direction: row;
+}
+
+#visualizacao select {
+    background-color: #2A0767;
+    color: white;    
+    border: 1px solid rgb(104, 104, 104);
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 18px;
+    font-size: 16px;
+}
+
+.grid-list-icon i{
+    color: white;
+    font-size: 25px;
+}
+
+.grid-list-icon {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #6F45FF;
+    border-radius: 10px;
+    background-color: #4C1BA7;
+    cursor: pointer;
 }
