@@ -231,3 +231,7 @@ hr {
     background-color: #4C1BA7;
     cursor: pointer;
 }
+
+.imagem-card {
+    width: 200px;
+}
